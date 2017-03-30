@@ -3,11 +3,12 @@ var messages = require('./messages');
 import Button from './button';
 import Kitten from './image';
 import Upsala from './upsala';
+import Icon from './icon';
 
 // var newMessage = () => `<p>${messages.hi} ${messages.event}</p>`;
 // var newMessage = () => (Button.button);
 var newMessage = () => `
-	<p>${messages.hi} ${messages.event}<br/>
+	<p>${Icon} ${messages.hi} ${messages.event}<br/>
 		${Kitten}<br/>
 		${Upsala}
 	</p>
