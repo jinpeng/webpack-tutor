@@ -30,6 +30,11 @@ module.exports = {
 				exclude: '/node_modules/'
 			},
 			{
+				test: /\.(png|jpg|gif)$/,
+				use: ['file-loader'],
+				exclude: '/node_modules/'
+			},
+			{
 				test: /\.js$/,
 				use: ["source-map-loader"],
 				exclude: '/node_modules/',
